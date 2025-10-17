@@ -27,6 +27,6 @@
 | Environment | Linux Mint 🐧 |
 
 ---
-> - With great power come great productivity
-> - Akyrr  
+>  *With great power come great productivity*
+>  -Akyrr  
 ---
