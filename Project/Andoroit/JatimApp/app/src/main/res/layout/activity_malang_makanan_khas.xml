@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:background="@android:color/white">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+    <!-- Gambar Header -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="12dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/imgHeader"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:src="@drawable/bakso_mlaang" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Judul -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="MAKANAN KHAS MALANG"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black" />
+
+        <!-- Paragraf 1 -->
+
+        <!-- Gambar + teks kecil (contoh Prasasti Dinoyo) -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:lineSpacingExtra="4dp"
+            android:text="Kota Malang tidak hanya dikenal dengan keindahan alam dan ragam destinasi wisatanya, tetapi juga memiliki kekayaan kuliner yang menjadi daya tarik tersendiri bagi para wisatawan. Makanan khas Malang menawarkan cita rasa yang unik, autentik, dan mencerminkan perpaduan budaya lokal dengan pengaruh luar yang beragam. Dari jajanan tradisional hingga hidangan berat yang legendaris, kuliner Malang mampu memberikan pengalaman rasa yang menggugah selera dan tak terlupakan."
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Cwie Mie"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardBalekambang1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="8dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="6dp"
+                app:cardUseCompatPadding="true">
+
+                <ImageView
+                    android:id="@+id/imageBalekambang1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/cwie_mie" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:lineSpacingExtra="2dp"
+                android:text="Berwisata ke Malang, Jawa Timur belum lengkap apabila tidak mencicipi Cwie Mie khas Malang.
+Cwie Mie berbeda dengan mie ayam. Mengutip buku Kitab Rahasia Membuat Mie, Putu Kornia (2019), Cwie Mie Malang biasanya disantap dengan kuah gurih, daun selada segar, serta taburan bawang goreng. Uniknya lagi, makanan khas Malang yang satu ini disajikan dengan menggunakan mangkuk yang terbuat dari pangsit "
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Tempe Mendol"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardCobanRondo"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="8dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="6dp"
+                app:cardUseCompatPadding="true">
+
+                <ImageView
+                    android:id="@+id/imageCobanRondo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/tempe_mendol" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:lineSpacingExtra="2dp"
+                android:text="Berwisata ke Malang, Jawa Timur belum lengkap apabila tidak mencicipi Tempe Mendol, salah satu lauk khas yang sudah melekat dengan budaya kuliner masyarakat setempat.  Mengutip buku Kitab Masakan Nusantara karya Sufi Yuliarti (2020), Tempe Mendol terbuat dari tempe yang sudah diperam, kemudian dihaluskan dan dibumbui dengan rempah-rempah seperti bawang, cabai, kencur, dan daun jeruk, lalu dibentuk oval dan digoreng hingga kering.  Uniknya, meskipun tampak sederhana, Tempe Mendol memiliki cita rasa yang gurih, pedas, dan aromatik, menjadikannya pasangan sempurna untuk nasi hangat, rawon, atau pecel khas Malang."
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Rawon Nguling"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardBromo"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="8dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="6dp"
+                app:cardUseCompatPadding="true">
+
+                <ImageView
+                    android:id="@+id/imageBromo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:adjustViewBounds="true"
+                        android:src="@drawable/rawon_nguling" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:lineSpacingExtra="2dp"
+                android:text="Rawon Nguling, salah satu ikon kuliner khas Jawa Timur yang melegenda.  Rawon ini berasal dari daerah Nguling, Pasuruan, namun sangat populer dan banyak ditemukan di Malang. Hidangan ini terbuat dari daging sapi yang dimasak dalam kuah hitam pekat, hasil dari penggunaan kluwek sebagai bumbu utama.  Rawon Nguling disajikan dengan pelengkap seperti tauge pendek, sambal, telur asin, dan kerupuk udang yang memperkaya rasa gurih dan khasnya."
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Bakso Malang"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardjatimpark1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="8dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="6dp"
+                app:cardUseCompatPadding="true">
+
+                <ImageView
+                    android:id="@+id/imagejatimpark1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/bakso_mlaang" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:lineSpacingExtra="2dp"
+                android:text="Tak ada yang lebih ikonik dari Malang selain seporsi Bakso Malang yang hangat dan lengkap.  Berbeda dari bakso pada umumnya, Bakso Malang terdiri dari berbagai macam isian seperti bakso halus, bakso kasar, tahu isi, siomay goreng, hingga pangsit goreng yang disajikan dalam satu mangkuk dengan kuah kaldu sapi yang gurih. Keunikan Bakso Malang terletak pada keberagamannya, memungkinkan penikmatnya memilih sendiri isian sesuai selera, menjadikannya salah satu kuliner paling digemari wisatawan."
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Pecel Kawi"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardjatimpark2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="8dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="6dp"
+                app:cardUseCompatPadding="true">
+
+                <ImageView
+                    android:id="@+id/imagejatimpark2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pecel_kawi" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:lineSpacingExtra="2dp"
+                android:text="Berkunjung ke Malang tak akan terasa lengkap tanpa menikmati Pecel Kawi, sajian tradisional yang sudah eksis sejak puluhan tahun lalu.  Pecel ini berasal dari Jalan Kawi, salah satu kawasan kuliner legendaris di Malang. Pecel Kawi disajikan dengan aneka sayuran rebus yang disiram sambal kacang kental dan gurih, biasanya ditemani rempeyek, tempe goreng, atau telur.  Mengutip catatan kuliner lokal, Pecel Kawi bukan sekadar makanan, tapi juga bagian dari perjalanan sejarah kuliner Malang yang terus bertahan di tengah perkembangan zaman."
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

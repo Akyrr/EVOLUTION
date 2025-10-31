@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@android:color/white">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+    <!-- Gambar Header -->
+        <ImageView
+            android:id="@+id/imgHeader"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/malang" />
+
+        <!-- Judul -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="MALANG"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black" />
+
+        <!-- Paragraf 1 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Kabupaten Malang adalah salah satu kabupaten tertua di Jawa Timur, yang memiliki sejarah yang panjang dan beragam. Sejarah kabupaten malang tidak terlepas dari keberadaan kerajaan-kerajaan yang pernah berdiri dan berkembang di wilayah ini, terutama Kerajaan Singasari yang merupakan cikal bakal kabupaten malang.
+"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp" />
+
+        <!-- Gambar + teks kecil (contoh Prasasti Dinoyo) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/prasasti_dinoyo" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:lineSpacingExtra="2dp"
+                android:text="Menurut Prasasti Dinoyo yang ditemukan di Desa Dinoyo, Kecamatan Lowokwaru, Kota Malang, kabupaten malang didirikan pada tahun 760 Masehi, yang bertepatan dengan tanggal 28 November. Prasasti ini berisi tentang peresmian tempat suci yang dibangun oleh Rakeyan Daha, yang merupakan putra dari Raja Gajayana dari Kerajaan Kanjuruhan."
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/kerajaaan_singo" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Kerajaan Singasari merupakan kerajaan yang besar dan kuat, yang berhasil mengalahkan Kerajaan Kediri dan Kerajaan Sriwijaya, serta meluaskan wilayahnya hingga ke Sumatera, Kalimantan, dan Bali. Kerajaan Singasari dipimpin oleh beberapa raja yang terkenal, seperti Anusapati, Wisnuwardhana, Kertanegara, dan Raden Wijaya.
+Kerajaan Singasari runtuh pada tahun 1292 Masehi, akibat dari serangan tentara Mongol yang dipimpin oleh Kaisar Kubilai Khan. Raden Wijaya, yang merupakan menantu dari Kertanegara, berhasil melarikan diri dan mendirikan Kerajaan Majapahit di Trowulan, Mojokerto."
+                android:textSize="14sp"
+                android:lineSpacingExtra="2dp" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/kerajaansingasari" />
+        </LinearLayout>
+
+
+
+        <!-- Tambahkan blok teks + gambar lain sesuai gambar 3, 4, 5 -->
+
+        <!-- Tombol -->
+
+    </LinearLayout>
+</ScrollView>

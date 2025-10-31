@@ -1,0 +1,275 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+    <!-- Gambar Header -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="12dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/imgHeader"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:src="@drawable/balekambang" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Judul -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="WISATA MALANG"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black" />
+
+        <!-- Paragraf 1 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Kota Malang memiliki daya tarik wisata yang sangat beragam, mulai dari keindahan alam pegunungan, taman kota yang asri, hingga situs bersejarah dan budaya lokal yang kental. Keberagaman destinasi wisata tersebut menjadikan Malang sebagai salah satu kota tujuan utama wisata di Indonesia, baik bagi wisatawan domestik maupun mancanegara.
+Wilayah Malang dan sekitarnya juga menawarkan berbagai jenis wisata, seperti wisata alam (air terjun, gunung, dan perkebunan), wisata buatan (taman rekreasi, wahana edukatif), wisata kuliner, hingga wisata budaya dan sejarah. Keunikan dan kekayaan ini menjadi potensi besar yang dapat dimanfaatkan untuk mendukung sektor pariwisata dan ekonomi kreatif di daerah."
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp" />
+
+        <!-- Gambar + teks kecil (contoh Prasasti Dinoyo) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Pantai Balekambang"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardBalekambang1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="8dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="6dp"
+                app:cardUseCompatPadding="true">
+
+                <ImageView
+                    android:id="@+id/imageBalekambang1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/balekambang1" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:lineSpacingExtra="2dp"
+                android:text="Pantai Balekambang merupakan salah satu pantai terkenal di Malang. Pantai ini memiliki Pura Amertha Jati yang berada di pulau karang, sehingga kerap disebut mirip Tanah Lot di Bali.
+Pulau karang tersebut bernama Pulau Ismoyo. Untuk menuju ke pulau tersebut, pengunjung harus menyeberangi jembatan sepanjang 70 meter.
+Pantai Balekambang berada di Desa Srigonco, Kecamatan Bantur, Kabupaten Malang. Tepatnya sekitar 58 kilometer (km), dengan jarak tempuh satu jam 48 menit dari Kota Malang menggunakan mobil.\n\nLokasi: Dusun Sumber Jambe, Desa Srigonco, Jalan Balekambang, Balaikambang, Sumberbening, Bantur, Malang, Jawa Timur."
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Coban Rondo"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardCobanRondo"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="8dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="6dp"
+                app:cardUseCompatPadding="true">
+
+                <ImageView
+                    android:id="@+id/imageCobanRondo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/cobanrondo" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:lineSpacingExtra="2dp"
+                android:text="Tempat wisata yang berada di kawasan Perhutani itu merupakan menjadi wisata yang digemari masyarakat.  Banyak wisatawan datang ke tempat ini, baik masyarakat setempat, dari luar kota, maupun wisatawan mancanegara.
+Coban Rondo memiliki ketinggian sekitar 84 meter. Sedangkan, lokasi air terjun berada pada ketinggian 1.134 meter di atas permukaan laut. Udara di sekitar sejuk dan tempat yang sesuai untuk liburan.\n\nLokasi: Desa Pandesari, Kecamatan Pujon, Kabupaten Malang, Jawa Timur."
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Gunung Bromo"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardBromo"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="8dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="6dp"
+                app:cardUseCompatPadding="true">
+
+                <ImageView
+                    android:id="@+id/imageBromo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/bromo" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:lineSpacingExtra="2dp"
+                android:text="Gunung Bromo Terletak di Taman Nasional Bromo Tengger Semeru, Jawa Timur, yang mencakup wilayah empat kabupaten di Jawa Timur, yaitu Probolinggo, Pasuruan, Lumajang, dan Malang.  Gunung Bromo telah menjadi daya tarik utama bagi wisatawan domestik dan mancanegara.
+Dengan ketinggian sekitar 2.329 meter
+di atas permukaan laut, Gunung Bromo adalah salah satu gunung berapi paling aktif di Indonesia.
+ Pemandangan kawah yang luas dengan latar belakang langit biru dan awan putih telah menjadi pemandangan ikonik yang memikat banyak pengunjung. Tidak hanya terbatas pada kawahnya, kawasan sekitarnya juga menawarkan panorama alam yang memukau, termasuk lautan pasir serta dikelilingi oleh pegunungan hijau yang menjulang.\n\nLokasi: Desa Ngadisari, Kecamatan Sukapura, Kabupaten Probolinggo, Provinsi Jawa Timur"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Jatim Park 1"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardjatimpark1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="8dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="6dp"
+                app:cardUseCompatPadding="true">
+
+                <ImageView
+                    android:id="@+id/imagejatimpark1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/jatimpark1" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:lineSpacingExtra="2dp"
+                android:text="Tempat wisata yang satu ini memang cukup populer di kalangan wisatawan. Destinasi ini bisa jadi pilihan saat liburan bareng keluarga kalau berkunjung ke Malang.
+Di sini, para pengunjung bisa menikmati lebih dari 50 wahana untuk dikunjungi. Salah satunya Galeri Etnik Nusantara, Flying Fox, Taman Sejarah, Flying Tornado, Volcano Coaster, dan masih banyak lagi.
+Oya, Jatim Park terletak di Kota Batu, sekitar 30 menit hingga 1 jam dari Kota Malang.\n\nLokasi:Jl. Kartika No. 2, Desa Sisir, Kec. Kota Batu, Jawa Timur"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Jatim Park 2"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardjatimpark2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="8dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="6dp"
+                app:cardUseCompatPadding="true">
+
+                <ImageView
+                    android:id="@+id/imagejatimpark2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/jatimpark2" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:lineSpacingExtra="2dp"
+                android:text="Lokasi Jatim Park 2 tidak terlalu jauh dari Jatim Park 1. Biasanya setelah puas jalan-jalan di Jatim Park 1, wisatawan langsung melanjutkan perjalanan ke Jatim Park 2. Ada tiga area khusus yang dijamin seru, yakni Batu Secret Zoo, Museum Satwa, dan Eco Green Park.
+Sesuai namanya, Batu Secret Zoo merupakan kebun binatang yang luasnya mencapai 14 hektare. Sementara itu, di Museum Satwa, kamu bisa belajar mengenai hewan yang sudah punah. Selanjutnya di Eco Green Park, kamu akan belajar banyak hal tentang pengetahuan alam.\n\nLokasi:Jl. Oro-Oro Ombo No. 9, Temas, Kec. Batu, Kota Batu, Jawa Timur "
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

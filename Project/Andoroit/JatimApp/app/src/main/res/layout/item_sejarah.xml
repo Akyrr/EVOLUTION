@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/imgSejarah"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/malang"
+        android:background="@drawable/circle_background"/>
+
+    <TextView
+        android:id="@+id/tvSejarah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MALANG"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="4dp"/>
+</LinearLayout>
