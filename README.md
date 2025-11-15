@@ -24,7 +24,7 @@
 | Language | Python, C#, Java, C, HTML, CSS, JS, SQL |
 | Framework | Android / Laravel / .NET |
 | IDE | VsCode, Visual Studio, Android Studio, Arduino |
-| Environment | Linux Mint 🐧 |
+| Environment | Lubuntu 🐧 |
 
 ---
 >  *With great power come great productivity*
